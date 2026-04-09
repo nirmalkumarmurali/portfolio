@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Github, Linkedin, FileText } from 'lucide-react';
-import { SOCIAL_LINKS } from '../constants';
+import { SOCIAL_LINKS, PROFILE_IMAGE } from '../constants';
 
 const Hero: React.FC = () => {
   return (
@@ -58,7 +58,7 @@ const Hero: React.FC = () => {
             <div className="relative w-full h-full rounded-full border-4 border-slate-200 dark:border-slate-700 overflow-hidden shadow-2xl bg-slate-100 dark:bg-slate-800">
                {/* Placeholder for professional photo */}
                <img 
-                 src="/portfolio/profile.jpeg"
+                 src={PROFILE_IMAGE}
                  alt="Nirmal Kumar Murali" 
                  className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                />

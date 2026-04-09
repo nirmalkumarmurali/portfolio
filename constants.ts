@@ -1,5 +1,7 @@
 import { Project, ExperienceItem, Skill, SoftSkill } from './types';
 
+export const PROFILE_IMAGE = "/portfolio/profile.jpeg";
+
 export const SOCIAL_LINKS = {
   github: "https://github.com/nirmalkumarmurali",
   linkedin: "https://www.linkedin.com/in/nirmal-kumar-murali/",
